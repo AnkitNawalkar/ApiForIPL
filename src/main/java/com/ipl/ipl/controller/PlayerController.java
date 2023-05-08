@@ -23,7 +23,6 @@ public class PlayerController {
 
 	@GetMapping("allplayers")
 	public List<Players> getAllPlayers() {
-	
 		return ps.getAllPlayers();
 	}
 
