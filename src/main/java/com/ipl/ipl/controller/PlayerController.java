@@ -23,7 +23,7 @@ public class PlayerController {
 
 	@GetMapping("allplayers")
 	public List<Players> getAllPlayers() {
-		System.out.println("Github");
+	
 		return ps.getAllPlayers();
 	}
 
